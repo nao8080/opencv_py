@@ -53,4 +53,3 @@ if __name__ == "__main__":
             axes[i,j].set_yticks(())
     plt.subplots_adjust(hspace=0.1, wspace=0.0)
     plt.show()
-    
