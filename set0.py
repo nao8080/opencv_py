@@ -12,7 +12,6 @@ plt.imshow(img_bgr)
 plt.subplot(122)
 plt.imshow(img_rgb)
 
-
 sift = cv2.xfeatures2d.SIFT_create()
 kp = sift.detect(img_bgr)
 img_kp = np.zeros_like(img_bgr)
