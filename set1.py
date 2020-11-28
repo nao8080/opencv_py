@@ -18,4 +18,3 @@ if __name__ == "__main__":
     
     plt.imshow(cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB));
     
-    
